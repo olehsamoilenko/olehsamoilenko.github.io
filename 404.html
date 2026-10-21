@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Not found</title>
+<script>
+  // The AIG course site moved: /aig-materials/<path> -> the same <path> at its new address.
+  var m = location.pathname.match(/^\/aig-materials(\/.*)?$/);
+  if (m) location.replace('https://autonomous-intelligence-group.github.io' + (m[1] || '/') + location.search + location.hash);
+</script>
+<p>Not found. The AIG course site is at
+<a href="https://autonomous-intelligence-group.github.io/">autonomous-intelligence-group.github.io</a>.</p>
