@@ -7,7 +7,7 @@ and GitHub does not redirect a Pages site when its repo is transferred.
 
 | Path | What it does |
 |---|---|
-| `aig-materials/**/index.html` | Redirects each page of the old site to the same page at the new address |
+| `aig-materials/**/index.html` | Redirects each page of the old site to its page at the new address, where `course/<slug>/` is `courses/<slug>/` |
 | `404.html` | Redirects any other `/aig-materials/…` link, such as a lecture PDF, the same way |
 | `aig-materials/logo.png`, `logo-text.png` | Copies, not redirects: the Lab 1 READMEs embed them as images, and an image cannot follow an HTML redirect |
 
